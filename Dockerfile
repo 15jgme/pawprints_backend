@@ -6,7 +6,7 @@ RUN mkdir -p github.com/15jgme/pawprints_backend/migrations
 
 WORKDIR /go/src/github.com/15jgme/pawprints_backend/migrations
 COPY migrations/pb_schema.json .
-COPY migrations/1672761489_collections_snapshop.go .
+# COPY migrations/1672761489_collections_snapshop.go .
 
 WORKDIR /go/src/github.com/15jgme/pawprints_backend
 COPY main.go .
